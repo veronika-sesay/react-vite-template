@@ -1,0 +1,43 @@
+:root {
+	--font-sans: 'Manrope', 'Segoe UI', Tahoma, sans-serif;
+
+	--color-text: #1f2937;
+	--color-text-muted: #4b5563;
+	--color-accent: #ea580c;
+	--color-accent-strong: #c2410c;
+
+	--color-bg-soft-1: #fff7ed;
+	--color-bg-soft-2: #fdf2f8;
+	--color-surface: rgba(255, 255, 255, 0.88);
+
+	--color-border-accent: rgba(234, 88, 12, 0.2);
+	--color-border-accent-soft: rgba(234, 88, 12, 0.16);
+	--color-border-neutral: #d1d5db;
+
+	--shadow-soft: 0 20px 45px rgba(17, 24, 39, 0.08);
+	--shadow-accent: 0 8px 18px rgba(234, 88, 12, 0.3);
+	--shadow-neutral: 0 8px 18px rgba(17, 24, 39, 0.1);
+
+	--content-width: min(1080px, 100%);
+}
+
+* {
+	box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+	min-height: 100%;
+}
+
+body {
+	margin: 0;
+	font-family: var(--font-sans);
+	color: var(--color-text);
+	background-color: #fffdfb;
+}
+
+a {
+	color: inherit;
+}
